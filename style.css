@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i");
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,700,700i,900,900i");
+/*MIXINS AND VARIABLES*/
+/*MAIN MARKUP*/
+body {
+  width: auto; }
+
+.navbar {
+  background: #2D2D2D;
+  font-family: "Lato";
+  padding: 15px 0; }
+  .navbar .navbar-brand {
+    font-weight: 900;
+    font-size: 22px;
+    text-transform: uppercase; }
+    .navbar .navbar-brand i {
+      color: #ff7878; }
+  .navbar ul {
+    text-transform: uppercase; }
+    .navbar ul .active-link {
+      background-color: #ff7878; }
+    .navbar ul .active-link a {
+      color: #fff; }
+    .navbar ul .active-link a:hover {
+      background-color: #000; }
+    .navbar ul li {
+      font-weight: 800; }
+
+header {
+  background: url(img/mainbg.jpg) no-repeat center top;
+  background-position: center center;
+  background-size: cover;
+  min-height: 540px;
+  text-align: center; }
+  header .head-bg h1 {
+    padding-top: 160px;
+    font-size: 70px;
+    font-family: "Raleway";
+    font-weight: 300;
+    color: #fff; }
+    header .head-bg h1 span {
+      font-weight: bold; }
+  header .head-bg h2 {
+    font-family: "Raleway";
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 40px; }
+
+section .section1 {
+  background: #F2F2F2;
+  text-align: center;
+  margin-top: -10px;
+  padding: 78px 0 59px 0; }
+  section .section1 i {
+    color: #ff7878;
+    font-size: 30px; }
+  section .section1 h4 {
+    font-size: 18px;
+    font-family: "Raleway";
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase; }
+  section .section1 p {
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 300;
+    color: #555555;
+    line-height: 28px; }
+
+section .section2 {
+  text-align: center;
+  background: #E0E0E0; }
+  section .section2 h4 {
+    padding: 75px 0 20px 0;
+    font-size: 18px;
+    font-family: "Raleway";
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase; }
+  section .section2 img {
+    padding-bottom: 70px;
+    transition: all 0.5s ease; }
+  section .section2 img:hover {
+    transform: rotateZ(-10deg);
+    transition-duration: 0.3s; }
+
+section .section3 {
+  text-align: center;
+  background: #F2F2F2; }
+  section .section3 h4 {
+    margin-top: 90px;
+    font-size: 18px;
+    font-family: "Raleway";
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase; }
+  section .section3 p {
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 300;
+    color: #555555;
+    line-height: 28px;
+    margin-bottom: 95px; }
+
+section .section4 {
+  text-align: center;
+  background: #EBEBEB;
+  padding: 80px 0 60px 0; }
+  section .section4 h4 {
+    font-size: 18px;
+    font-family: "Raleway";
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase; }
+
+footer .footer1 {
+  background: #ff7878;
+  text-align: center;
+  padding: 50px 0 55px 0; }
+  footer .footer1 h4 {
+    font-size: 18px;
+    font-family: "Raleway";
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase;
+    color: #fff; }
+  footer .footer1 p {
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 300;
+    color: #555555;
+    line-height: 28px;
+    color: #fff; }
+
+footer .footer2 {
+  background: #2D2D2D;
+  text-align: center;
+  padding: 50px 0; }
+  footer .footer2 a {
+    font-size: 30px;
+    color: #fff;
+    padding: 15px; }
+  footer .footer2 a:hover {
+    color: #ff7878; }
+
+/*node-sass css/style.scss --output . --watch*/
